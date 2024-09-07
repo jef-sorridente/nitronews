@@ -110,6 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (!validateForm()) return;
 
     submitButton.disabled = true;
+    submitButton.textContent = "Carregando...";
     messageDiv.textContent = "";
 
     const resetMessage = setTimeout(() => {
@@ -136,6 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
       resetMessage;
     } finally {
       submitButton.disabled = false;
+      submitButton.textContent = "Cadastrar";
     }
   });
 
