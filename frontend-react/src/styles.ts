@@ -10,11 +10,6 @@ export const colors = {
   error: "#dc3545",
 };
 
-export const breakpoinst = {
-  desktop: "1024px",
-  tablet: "768px",
-};
-
 export const GlobalCss = createGlobalStyle`
     * {
         margin: 0;

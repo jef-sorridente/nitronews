@@ -89,8 +89,6 @@ const Form = () => {
     return hasError;
   };
 
-  console.log(load);
-
   return (
     <S.Container>
       <h1>Teste Técnico - Nitronews</h1>
