@@ -9,6 +9,8 @@ Repositório de uma aplicação para cadastro de usuários:
 - **vite**: Ferramenta rápida para desenvolvimento e construção de aplicações web.
 - **babel**: Compilador que transforma o código JavaScript moderno em uma versão compatível com navegadores mais antigos.
 
+- **sass**: Pré-processador de CSS que adiciona recursos como variáveis, aninhamento e funções, tornando o CSS mais poderoso e fácil de manter.
+
 ## Objetivo
 
 Foi realizado o desenvolvimento de uma mini-aplicação que interage com um backend rodando em Docker através de requisições HTTP.
